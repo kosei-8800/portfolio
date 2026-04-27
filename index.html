@@ -1,52 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="with=device-width,initial-scale=1.0">
-  <title>はじめてのWeb</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LETTY・DE・ROUGE</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="#About">About</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Works">Works</a>
-    </nav>
-    <div class="container">
-        <h1>My Portfolio</h1>
-        <p>Webエンジニアを目指して勉強中です。</p>
-        <img src="profile.jpg" alt="プロフィール画像">
-        <h2 id="About">About Me</h2>
-        <p>Webエンジニアを目指して、HTML/CSSを勉強中です。</p>
-        <p>簡単なホームページ制作・既存サイトの修正等対応できます。</p>
-        <h2 id="Skills">Skills</h2>
-        <ul>
-            <li>THML</li>
-            <li>CSS</li>
-            <li>JavaScript(勉強中)</li>
-        </ul>
-        <h2 id="Works">Works</h2>
-        <div class="work">
-            <h3>練習サイト</h3>
-            <p>HTML/CSSで作った初めてのWebページです。</p>
-            <h3>自己紹介サイト</h3>
-            <p>HTML/CSSでレイアウトを意識して制作しました。</p>
-        </div>
-        <p class="mail">
-            メール：
-            <a href="mailto:kosei8800.web@gmail.com">
-                kosei8800.web@gmail.com
-            </a>
-        </p>
-        <a href="mailto:kosei8800.web@gmail.com?subject=お問い合わせ">
-        <button>
-            お問い合わせ
-        </button>
-        </a>
-        <footer>
-            <p>©2026 MyPortfolio</p>
-        </footer>
+    <header>
+        <h1>LETTY・DE・ROUGE</h1>
+        <nav>
+            <a href="#concept">Concept</a>
+            <a href="#price">Price</a>
+            <a href="#cast">Cast</a>
+            <a href="#access">Access</a>
+        </nav>
+    </header>
+
+<section class="hero">
+    <h2>扉を開ければ、迷いは消える。</h2>
+    <p>洗礼された空間で、特別なひとときを。</p>
+    <a href="#price" class="button">料金を見る</a>
+</section>
+<section id="concept" class="section">
+    <h2>Concept</h2>
+    <p>LETTY・DE・ROUGEは、上質な夜を提供するキャバクラです。静かで落ち着いた空間で、洗練されたサービスと美しいキャストがあなたをお迎えします。特別なひとときを過ごすための場所として、最高の環境をご用意しています。</p>
+</section>
+<section id="price" class="section">
+    <h2>Price</h2>
+    <div class="price-box">
+        <p>Set 50min : ¥6000</p>
+        <p>指名料金 : ¥2000</p>
+        <p>延長料金 50min : ¥6000</p>
     </div>
- 
+</section>
+<section id="cast" class="section">
+    <h2>cast</h2>
+    <div class="cast-list">
+        <div class="cast-card">
+            <div class="castphoto"></div>
+            <h3>Hina</h3>
+            <p>明るく上品な接客が魅力のキャスト。お客様との会話を大切にし、楽しい時間を提供します。</p>
+        </div>
+
+        <div class="cast-card">
+            <div class="castphoto"></div>
+            <h3>Yuki</h3>
+            <p>落ち着いた雰囲気と優しい笑顔が特徴のキャスト。お客様の心を癒す接客で、特別な時間を演出します。</p>
+        </div>
+
+        <div class="cast-card">
+            <div class="castphoto"></div>
+            <h3>Emi</h3>
+            <p>聞き上手で、どんな話題でも盛り上げることができるキャスト。お客様とのコミュニケーションを楽しむことができます。</p>
+        </div>
+    </div>
+</section>
+
+<section id="access" class="section">
+    <h2>Access</h2>
+    <p>福岡県北九州市小倉北区</p>
+    <p>営業時間: 20:00 - 1:00</p>
+</section>
+
+<section class="contact">
+    <h2>ご予約・お問い合わせ</h2>
+    <p>ご予約やお問い合わせは、お電話またはメールでお気軽にどうぞ。</p>
+    <a href="mailto:aaaaa@gmail.com" class="button">メールでお問い合わせ</a>
+</section>
+
+<footer>
+    <p>&copy; ©2026 LETTY・DE・ROUGE</p>
+</footer>
 </body>
 </html>
